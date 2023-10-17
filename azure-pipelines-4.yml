@@ -20,7 +20,7 @@ steps:
     testim \
     --token "LZKYEMQyi5KYTwnlWVRfNt5Xzes9379ncFsDFCVHlsCRQCBqga" \
     --project "zhPyzTaWvP7G8JdkaBMv" \
-    --grid "local-grid" \
+    --grid "Testim-Grid" \
     --report-file testim-tests-report.xml
   displayName: 'npm install testim-cli and run tests'
 

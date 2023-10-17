@@ -12,15 +12,15 @@ pool:
 steps:
 - task: NodeTool@0
   inputs:
-    versionSpec: '20.x'
+    versionSpec: '16.x'
   displayName: 'Install Node.js'
 
 - script: |
     npm install -g @testim/testim-cli
-    testim 
-    --token "sKZGYsrfdlEJUMrlP7KifXxApGvhpeOFF4v9JfGbwaTPUtg3dZ" 
-    --project "CeWC3NVxWznni6wW9mpS" 
-    --grid "Testim-Grid" 
+    testim \
+    --token "LZKYEMQyi5KYTwnlWVRfNt5Xzes9379ncFsDFCVHlsCRQCBqga" \
+    --project "zhPyzTaWvP7G8JdkaBMv" \
+    --grid "local-grid" \
     --report-file testim-tests-report.xml
   displayName: 'npm install testim-cli and run tests'
 
